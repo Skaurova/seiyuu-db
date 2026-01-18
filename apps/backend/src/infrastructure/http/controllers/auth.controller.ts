@@ -7,7 +7,7 @@ import {
   Res,
 } from '@nestjs/common';
 import type { Response } from 'express';
-import { FakeAuthService } from '../../../faker/fake-auth.service';
+import { FakeAuthService } from '../../../faker/auth/fake-auth.service';
 import { LoginDto } from '../../../core/auth/dtos/login.dto';
 
 @Controller('auth')
